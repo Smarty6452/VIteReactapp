@@ -1,0 +1,15 @@
+.datagrid {
+    box-shadow: "0 2px 4px rgba(0,0,0,0.2)";
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10rem auto;
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .datagrid {
+      width: 100%;
+      height: auto;
+    }
+  }
+
